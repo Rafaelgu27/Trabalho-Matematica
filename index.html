@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Área e Volume</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Cálculo de Área e Volume</h1>
+
+    <h2>Cilindro</h2>
+    <label>Raio (r): <input type="number" id="cilindroR" /></label>
+    <label>Altura (h): <input type="number" id="cilindroH" /></label>
+    <button onclick="calcularCilindro()">Calcular Cilindro</button>
+    <div id="resultadoCilindro"></div>
+
+    <h2>Cone</h2>
+    <label>Raio (r): <input type="number" id="coneR" /></label>
+    <label>Altura (h): <input type="number" id="coneH" /></label>
+    <button onclick="calcularCone()">Calcular Cone</button>
+    <div id="resultadoCone"></div>
+
+    <h2>Tronco de Cone</h2>
+    <label>Raio menor (r1): <input type="number" id="troncoR1" /></label>
+    <label>Raio maior (r2): <input type="number" id="troncoR2" /></label>
+    <label>Altura (h): <input type="number" id="troncoH" /></label>
+    <button onclick="calcularTroncoCone()">Calcular Tronco de Cone</button>
+    <div id="resultadoTroncoCone"></div>
+
+    <h2>Esfera</h2>
+    <label>Raio (r): <input type="number" id="esferaR" /></label>
+    <button onclick="calcularEsfera()">Calcular Esfera</button>
+    <div id="resultadoEsfera"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
